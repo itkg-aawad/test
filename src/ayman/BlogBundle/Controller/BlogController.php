@@ -158,7 +158,9 @@ class BlogController extends Controller{
         return new Response('OK');
     }
     
-    
+    public function testGit (){
+    	return  new Response("GIT GIT GIT");
+    }
     
     
 
