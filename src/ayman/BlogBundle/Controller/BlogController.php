@@ -162,8 +162,12 @@ class BlogController extends Controller{
     	return  new Response("GIT GIT GIT");
     }
     
-    public function testGit45(){
+    public function testGit4(){
     	return  new Response("GIT GIT GIT");
+    }
+    
+    public function test5(){
+    	return new Response("formation GIT");
     }
     
 
