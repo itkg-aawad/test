@@ -64,7 +64,7 @@ class BlogController extends Controller{
     {
         $article = new Article;
 		$myForm = $this->createForm(new ArticleType, $article);
-
+		
         //$myForm = $formulaire->getForm();
         $req = $this->get('request');
         
@@ -73,6 +73,8 @@ class BlogController extends Controller{
             $myForm->bind($req);
             
             if($myForm->isValid()){
+        
+            	 
                 $em = $this->getDoctrine()
                             ->getManager();
                 $em->persist($article);

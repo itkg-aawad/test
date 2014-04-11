@@ -12,7 +12,7 @@ class Categories implements FixtureInterface
 public function load(ObjectManager $manager)
 {
 // Liste des noms de catégorie à ajouter
-$noms = array('Symfony2', 'Doctrine2', 'Tutoriel', 'Évènement');
+$noms = array('Symfony2', 'Doctrine2', 'Tutoriel', 'Évènement','Formation');
 
     foreach($noms as $i => $nom)
     {

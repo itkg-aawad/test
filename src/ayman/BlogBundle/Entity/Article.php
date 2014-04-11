@@ -30,10 +30,9 @@ class Article
     
     
     /**
-     * @ORM\OneToOne(targetEntity="ayman\BlogBundle\Entity\Image",cascade={"persist"})
+     * @ORM\OneToOne(targetEntity="ayman\BlogBundle\Entity\Image",cascade={"persist", "remove"})
      * 
      */
-    
     private $image;
     
     
