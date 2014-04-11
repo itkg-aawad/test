@@ -1,0 +1,40 @@
+ayman_blog_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: "aymanBlogBundle:Default:index" }
+    
+blog_accueil:
+    path: /{page}
+    defaults: { _controller: "aymanBlogBundle:Blog:accueil", page : 1}
+    requirements:
+        page: \d*
+        
+blog_lesArticles:
+    path: /lesArticles
+    defaults: { _controller: "aymanBlogBundle:Blog:voirToutLesArticles"}
+    
+blog_article:
+    path: /article/{id}
+    defaults: { _controller: "aymanBlogBundle:Blog:voirArticle" }
+    requirements:
+        page: \d+
+    
+blog_ajouter:
+    path: /ajouter
+    defaults: { _controller: "aymanBlogBundle:Blog:ajouterArticle"}
+
+blog_modifier:
+    path: /modifier/{id}
+    defaults: { _controller: "aymanBlogBundle:Blog:modifierArticle"}
+    requirements:
+        id: \d+
+    
+blog_supprimer:
+    path: /supprimer/{id}
+    defaults: { _controller: "aymanBlogBundle:Blog:supprimerArticle"}
+    requirements:
+        id: \d+
+       
+blog_test:
+    path : /test/{page}
+    defaults: { _controller: "aymanBlogBundle:Blog:"}
+                   

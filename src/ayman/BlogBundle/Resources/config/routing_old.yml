@@ -1,0 +1,22 @@
+ayman_blog_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: "aymanBlogBundle:Default:index" }
+  
+blog_accueil:
+    path:  /
+    defaults: { _controller: "aymanBlogBundle:Blog:index" }
+
+blog_voir:
+    path:  /article
+    defaults: { _controller: "aymanBlogBundle:Blog:index"}
+
+blog_ajouter:
+    path: /ajouter
+    defaults: { _controller: "aymanBlogBundle:Blog:ajouter" }
+    
+plusieur_variables:
+    path: /{annee}/{fichier}.{format}
+    defaults: { _controller: "aymanBlogBundle:Blog:voir1", format: html } #met un format pas defaut
+    requirements: #definit les formats des paramétres
+        annee : \d{4}
+        format: html|xml 

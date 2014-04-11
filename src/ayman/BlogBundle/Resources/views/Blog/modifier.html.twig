@@ -1,0 +1,23 @@
+{# src/Sdz/BlogBundle/Resources/views/Blog/modifier.html.twig #}
+{% extends "aymanBlogBundle::layout.html.twig" %}
+	{% block title %}
+	Modifier un article - {{ parent() }}
+	{% endblock %}
+	{% block formulaireModifier %}
+	
+	<h2>Modifier un article</h2>
+		{% include "aymanBlogBundle:Blog:formulaire.html.twig" %}
+	<p>
+		Vous éditez un article déjà existant,
+		ne le changez pas trop pour éviter
+		aux membres de ne pas comprendre
+		ce qu'il se passe.
+	</p>
+	<p>
+		<a href="{{ path('blog_article', {'id': article.id}) }}"
+		class="btn">
+		<i class="icon-chevron-left"></i>
+		Retour à l'article
+		</a>
+	</p>
+	{% endblock %}
