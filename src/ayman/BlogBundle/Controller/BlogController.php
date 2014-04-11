@@ -169,6 +169,8 @@ class BlogController extends Controller{
     public function test5(){
     	return new Response("formation GIT");
     }
-    
+    public function test6(){
+    	return new Response("Formation GIT 2");
+    }
 
 }
