@@ -157,20 +157,5 @@ class BlogController extends Controller{
         $em->flush();
         return new Response('OK');
     }
-    
-    public function testGit2 (){
-    	return  new Response("GIT GIT GIT");
-    }
-    
-    public function testGit4(){
-    	return  new Response("GIT GIT GIT");
-    }
-    
-    public function test5(){
-    	return new Response("formation GIT");
-    }
-    public function test6(){
-    	return new Response("Formation GIT 2");
-    }
 
 }

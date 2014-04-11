@@ -496,3 +496,15 @@ ed3aff,127.0.0.1,GET,http://test.local/app_dev.php/_fragment?_path=_format%3Dhtm
 774d80,127.0.0.1,GET,http://test.local/app_dev.php/blog/ajouter,1397146082,
 0fe047,127.0.0.1,GET,http://test.local/app_dev.php/_fragment?_path=_format%3Dhtml%26_locale%3Den%26_controller%3DaymanBlogBundle%253ABlog%253Amenu,1397146093,bb4ac6
 bb4ac6,127.0.0.1,GET,http://test.local/app_dev.php/blog/ajouter,1397146093,
+e188bc,127.0.0.1,GET,http://test.local/app_dev.php/_fragment?_path=_format%3Dhtml%26_locale%3Den%26_controller%3DaymanBlogBundle%253ABlog%253Amenu,1397213035,59bda9
+59bda9,127.0.0.1,GET,http://test.local/app_dev.php/blog,1397213035,
+6718a8,127.0.0.1,GET,http://test.local/app_dev.php/_fragment?_path=_format%3Dhtml%26_locale%3Den%26_controller%3DaymanBlogBundle%253ABlog%253Amenu,1397213039,95610b
+95610b,127.0.0.1,GET,http://test.local/app_dev.php/blog/2,1397213039,
+0ec1b7,127.0.0.1,GET,http://test.local/app_dev.php/blog/article/30,1397213040,5a4d0d
+5a4d0d,127.0.0.1,GET,http://test.local/app_dev.php/blog/article/30,1397213040,
+7c5026,127.0.0.1,GET,http://test.local/app_dev.php/_fragment?_path=_format%3Dhtml%26_locale%3Den%26_controller%3DaymanBlogBundle%253ABlog%253Amenu,1397213043,3096fc
+3096fc,127.0.0.1,GET,http://test.local/app_dev.php/blog/ajouter,1397213043,
+20b58d,127.0.0.1,GET,http://test.local/app_dev.php/_fragment?_path=_format%3Dhtml%26_locale%3Den%26_controller%3DaymanBlogBundle%253ABlog%253Amenu,1397213048,df22e0
+df22e0,127.0.0.1,GET,http://test.local/app_dev.php/blog/ajouter,1397213048,
+ae0d11,127.0.0.1,GET,http://test.local/app_dev.php/blog/article/1,1397213053,f2a3f2
+f2a3f2,127.0.0.1,GET,http://test.local/app_dev.php/blog/article/1,1397213053,
